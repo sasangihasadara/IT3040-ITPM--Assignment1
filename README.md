@@ -39,7 +39,7 @@ Download and extract the project ZIP file to your local machine.
 Example location:
 
 ```
-D:\test_automation
+E:\test_automation\test_automation
 ```
 
 ---
@@ -49,7 +49,7 @@ D:\test_automation
 Open Command Prompt and run:
 
 ```
-cd /d D:\test_automation
+cd /d E:\test_automation\test_automation
 ```
 
 ---
@@ -97,7 +97,7 @@ These will be automatically updated by the script.
 Execute the following command:
 
 ```
-python test_automation.py --excel "test_automation/Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
+python test_automation.py --excel "Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
 ```
 
 ---
@@ -140,7 +140,7 @@ test_automation/
 
 * Ensure the Excel file is CLOSED before running the script
 * Do NOT rename project files
-* Maintain stable internet connection
+* Maintain a stable internet connection
 * Adjust delay parameters if necessary for slower systems
 
 ---
